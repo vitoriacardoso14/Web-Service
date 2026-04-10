@@ -1,24 +1,29 @@
 package webservice;
 
 public class Vaga {
+
     private int id;
-    private String cargo;
-    private double salario;
-
-    public Vaga() {}
-
-    public Vaga(int id, String cargo, double salario) {
-        this.id = id;
-        this.cargo = cargo;
-        this.salario = salario;
-    }
+    private String titulo;
+    private String descricao;
+    private String publicacao;
+    private boolean ativo;
+    private int idEmpresa;
 
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
 
-    public String getCargo() { return cargo; }
-    public void setCargo(String cargo) { this.cargo = cargo; }
+    public String getTitulo() { return titulo; }
+    public void setTitulo(String titulo) { this.titulo = titulo; }
 
-    public double getSalario() { return salario; }
-    public void setSalario(double salario) { this.salario = salario; }
+    public String getDescricao() { return descricao; }
+    public void setDescricao(String descricao) { this.descricao = descricao; }
+
+    public String getPublicacao() { return publicacao; }
+    public void setPublicacao(String publicacao) { this.publicacao = publicacao; }
+
+    public boolean isAtivo() { return ativo; }
+    public void setAtivo(boolean ativo) { this.ativo = ativo; }
+
+    public int getIdEmpresa() { return idEmpresa; }
+    public void setIdEmpresa(int idEmpresa) { this.idEmpresa = idEmpresa; }
 }

@@ -1,17 +1,11 @@
 package webservice;
 
 public class Empresa {
+
     private int id;
     private String nome;
     private String cnpj;
-
-    public Empresa() {}
-
-    public Empresa(int id, String nome, String cnpj) {
-        this.id = id;
-        this.nome = nome;
-        this.cnpj = cnpj;
-    }
+    private String emailContato;
 
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
@@ -21,4 +15,7 @@ public class Empresa {
 
     public String getCnpj() { return cnpj; }
     public void setCnpj(String cnpj) { this.cnpj = cnpj; }
+
+    public String getEmailContato() { return emailContato; }
+    public void setEmailContato(String emailContato) { this.emailContato = emailContato; }
 }

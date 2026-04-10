@@ -12,35 +12,39 @@ GET https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/estudantes/1
 
 ###
 
-### POST
+### POST (CRIAR NOVO)
 
 POST https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/estudantes
 Content-Type: application/json
 
 {
-"id": 1,
-"nome": "Vitoria",
-"curso": "CC"
+"id": 11,
+"nome": "Novo Estudante",
+"email": "[novo@email.com](mailto:novo@email.com)",
+"nascimento": "2004-05-10",
+"anoIngresso": 2023
 }
 
 ###
 
-### PUT
+### PUT (ATUALIZAR)
 
-PUT https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/estudantes/1
+PUT https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/estudantes/11
 Content-Type: application/json
 
 {
-"id": 1,
-"nome": "Atualizada",
-"curso": "SI"
+"id": 11,
+"nome": "Estudante Atualizado",
+"email": "[atualizado@email.com](mailto:atualizado@email.com)",
+"nascimento": "2004-05-10",
+"anoIngresso": 2024
 }
 
 ###
 
 ### DELETE
 
-DELETE https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/estudantes/1
+DELETE https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/estudantes/11
 
 ###
 
@@ -58,35 +62,37 @@ GET https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/empresas/1
 
 ###
 
-### POST
+### POST (CRIAR NOVO)
 
 POST https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/empresas
 Content-Type: application/json
 
 {
-"id": 1,
-"nome": "Google",
-"cnpj": "123456"
+"id": 6,
+"nome": "Nova Empresa",
+"cnpj": "00.000.000/0001-00",
+"emailContato": "[contato@nova.com](mailto:contato@nova.com)"
 }
 
 ###
 
-### PUT
+### PUT (ATUALIZAR)
 
-PUT https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/empresas/1
+PUT https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/empresas/6
 Content-Type: application/json
 
 {
-"id": 1,
-"nome": "Google Atualizada",
-"cnpj": "999"
+"id": 6,
+"nome": "Empresa Atualizada",
+"cnpj": "11.111.111/0001-11",
+"emailContato": "[novo@empresa.com](mailto:novo@empresa.com)"
 }
 
 ###
 
 ### DELETE
 
-DELETE https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/empresas/1
+DELETE https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/empresas/6
 
 ###
 
@@ -104,34 +110,40 @@ GET https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/vagas/1
 
 ###
 
-### POST
+### POST (CRIAR NOVO)
 
 POST https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/vagas
 Content-Type: application/json
 
 {
-"id": 1,
-"cargo": "Dev",
-"salario": 5000
+"id": 8,
+"titulo": "Nova Vaga",
+"descricao": "Teste de vaga",
+"publicacao": "2026-04-10",
+"ativo": true,
+"idEmpresa": 1
 }
 
 ###
 
-### PUT
+### PUT (ATUALIZAR)
 
-PUT https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/vagas/1
+PUT https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/vagas/8
 Content-Type: application/json
 
 {
-"id": 1,
-"cargo": "Dev Senior",
-"salario": 8000
+"id": 8,
+"titulo": "Vaga Atualizada",
+"descricao": "Descrição atualizada",
+"publicacao": "2026-04-10",
+"ativo": false,
+"idEmpresa": 2
 }
 
 ###
 
 ### DELETE
 
-DELETE https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/vagas/1
+DELETE https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/vagas/8
 
 ###
