@@ -26,21 +26,21 @@ public class EstudanteController {
     }
 
     @PostMapping
-    public String add(@RequestBody Estudante e) {
-        lista.add(e);
+    public String add(@RequestBody Estudante estudante) {
+        lista.add(estudante);
         return "Estudante adicionado!";
     }
 
     @PutMapping("/{id}")
-    public String update(@PathVariable int id, @RequestBody Estudante novo) {
+    public String atualizar(@PathVariable int id, @RequestBody Estudante atualizado) {
         for (Estudante e : lista) {
             if (e.getId() == id) {
-                e.setNome(novo.getNome());
-                e.setCurso(novo.getCurso());
+                e.setNome(atualizado.getNome());
+                e.setCurso(atualizado.getCurso());
                 return "Atualizado!";
             }
         }
-        return "Não encontrado";
+        return "Não encontrado!";
     }
 
     @DeleteMapping("/{id}")

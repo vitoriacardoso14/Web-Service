@@ -1,8 +1,0 @@
-PUT https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/estudantes/1
-Content-Type: application/json
-
-{
-  "id": 1,
-  "nome": "Vitoria Atualizada",
-  "curso": "SI"
-}

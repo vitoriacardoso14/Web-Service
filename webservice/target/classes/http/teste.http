@@ -1,0 +1,137 @@
+### ESTUDANTES
+
+### GET TODOS
+
+GET https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/estudantes
+
+###
+
+### GET POR ID
+
+GET https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/estudantes/1
+
+###
+
+### POST
+
+POST https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/estudantes
+Content-Type: application/json
+
+{
+"id": 1,
+"nome": "Vitoria",
+"curso": "CC"
+}
+
+###
+
+### PUT
+
+PUT https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/estudantes/1
+Content-Type: application/json
+
+{
+"id": 1,
+"nome": "Atualizada",
+"curso": "SI"
+}
+
+###
+
+### DELETE
+
+DELETE https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/estudantes/1
+
+###
+
+### EMPRESAS
+
+### GET TODOS
+
+GET https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/empresas
+
+###
+
+### GET POR ID
+
+GET https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/empresas/1
+
+###
+
+### POST
+
+POST https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/empresas
+Content-Type: application/json
+
+{
+"id": 1,
+"nome": "Google",
+"cnpj": "123456"
+}
+
+###
+
+### PUT
+
+PUT https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/empresas/1
+Content-Type: application/json
+
+{
+"id": 1,
+"nome": "Google Atualizada",
+"cnpj": "999"
+}
+
+###
+
+### DELETE
+
+DELETE https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/empresas/1
+
+###
+
+### VAGAS
+
+### GET TODOS
+
+GET https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/vagas
+
+###
+
+### GET POR ID
+
+GET https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/vagas/1
+
+###
+
+### POST
+
+POST https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/vagas
+Content-Type: application/json
+
+{
+"id": 1,
+"cargo": "Dev",
+"salario": 5000
+}
+
+###
+
+### PUT
+
+PUT https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/vagas/1
+Content-Type: application/json
+
+{
+"id": 1,
+"cargo": "Dev Senior",
+"salario": 8000
+}
+
+###
+
+### DELETE
+
+DELETE https://musical-cod-wrv5xj57w9wjfgx6g-8080.app.github.dev/vagas/1
+
+###

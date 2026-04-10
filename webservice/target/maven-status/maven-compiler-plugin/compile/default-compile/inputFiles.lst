@@ -2,3 +2,7 @@
 /workspaces/Web-Service/webservice/src/main/java/webservice/WebserviceApplication.java
 /workspaces/Web-Service/webservice/src/main/java/webservice/TesteController.java
 /workspaces/Web-Service/webservice/src/main/java/webservice/EstudanteController.java
+/workspaces/Web-Service/webservice/src/main/java/webservice/VagaController.java
+/workspaces/Web-Service/webservice/src/main/java/webservice/EmpresaController.java
+/workspaces/Web-Service/webservice/src/main/java/webservice/Vaga.java
+/workspaces/Web-Service/webservice/src/main/java/webservice/Empresa.java
